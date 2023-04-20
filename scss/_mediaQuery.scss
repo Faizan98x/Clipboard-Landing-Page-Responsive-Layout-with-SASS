@@ -1,0 +1,122 @@
+@media screen and (min-width: 980px) {
+  header {
+    background-image: url(../images/bg-header-desktop.png);
+
+    p {
+      width: 420px;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+    }
+  }
+  .btn-grp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section1 {
+    padding: 5rem 0;
+
+    h1 {
+      width: 420px;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+    p {
+      width: 450px;
+      margin-inline: auto;
+    }
+
+    .section1-1 {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      figure {
+        img {
+          width: 80%;
+        }
+      }
+
+      .section1-sub {
+        margin-top: 5rem;
+      }
+
+      h2 {
+        width: 250px;
+        text-align: start;
+      }
+      p {
+        width: 250px;
+        text-align: start;
+      }
+    }
+  }
+
+  .section2 {
+    h1 {
+      width: 450px;
+      margin-inline: auto;
+    }
+
+    p {
+      width: 450px;
+      margin-inline: auto;
+    }
+
+    img {
+      width: 60%;
+    }
+  }
+
+  .section3 {
+    .workflow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .workflow-sections {
+        padding: 2rem;
+        h2,
+        p {
+          width: 270px;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    flex-direction: row;
+
+    img {
+      margin: 0 4rem;
+      width: 12rem;
+    }
+  }
+
+  .section5 {
+
+    h1,
+    p {
+      width: 450px;
+      margin-inline: auto;
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+
+  footer {
+    padding: 5rem 8rem 2rem 8rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    .faqs {
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+      }
+  }
+}

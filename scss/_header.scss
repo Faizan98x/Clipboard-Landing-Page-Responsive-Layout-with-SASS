@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  background: url(../images/bg-header-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .logo {
+    width: 7rem;
+    margin-block: 4rem;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 3rem;
+    padding-inline: 0.5rem;
+  }
+}

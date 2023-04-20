@@ -1,0 +1,70 @@
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+
+$Dark-Grayish-Blue: hsl(210, 10%, 33%);
+$Grayish-Blue: hsl(201, 11%, 66%);
+
+img {
+  max-width: 100%;
+}
+
+.btn-grp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+
+  .btn {
+    border: none;
+    outline: none;
+    background-color: $Strong-Cyan;
+    padding: 1rem 2rem;
+    color: #fff;
+    margin: 0.8rem;
+    max-width: 100%;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: $Strong-Cyan;
+    box-shadow: 0 2px 2px darken($color: $Strong-Cyan, $amount: 20%);
+
+    &:hover {
+      background-color: lighten($color: $Strong-Cyan, $amount: 10%);
+      transition: 2ms;
+    }
+  }
+
+  .btn-secondary {
+    background-color: $Light-Blue;
+    box-shadow: 0 1.5px 1px darken($color: $Light-Blue, $amount: 20%);
+
+    &:hover {
+      background-color: lighten($color: $Light-Blue, $amount: 10%);
+      transition: 2ms;
+    }
+  }
+}
+
+.heading {
+  color: $Dark-Grayish-Blue;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.sub-heading {
+  color: $Dark-Grayish-Blue;
+  text-align: center;
+}
+
+.paragraph {
+  color: $Grayish-Blue;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container-padding {
+  padding-inline: 1.5rem;
+}

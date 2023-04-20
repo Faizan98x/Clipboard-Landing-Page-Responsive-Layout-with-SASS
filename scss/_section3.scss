@@ -1,0 +1,29 @@
+.section3 {
+  padding: 5rem 2rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .workflow {
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+
+      svg {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
